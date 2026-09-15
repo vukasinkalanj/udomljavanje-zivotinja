@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="R1ZEjnWNOsi4uEM9kv1O">
+    <mxGraphModel dx="1602" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4_SGCCDaH6KObCQVByiN-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFFFF);fillColor=light-dark(#FFFFFF,#333333);" value="" vertex="1">
+          <mxGeometry height="300" width="430" x="350" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=light-dark(#FF0000,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="210" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-2" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#FF0000,#FFFFFF);rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-14" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" target="4_SGCCDaH6KObCQVByiN-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-3" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Prijava" vertex="1">
+          <mxGeometry height="52" width="140" x="155" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-4" parent="4_SGCCDaH6KObCQVByiN-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="entry / podnesiPrijavu()" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-22" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4_SGCCDaH6KObCQVByiN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pregled prijave" vertex="1">
+          <mxGeometry height="70" width="150" x="400" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-8" parent="4_SGCCDaH6KObCQVByiN-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="entry / obavestiAdmina()&lt;br&gt;exit / obradaPrijave()" vertex="1">
+          <mxGeometry height="44" width="150" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-29" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4_SGCCDaH6KObCQVByiN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Odbijena prijava" vertex="1">
+          <mxGeometry height="70" width="160" x="650" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-11" parent="4_SGCCDaH6KObCQVByiN-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="entry / obavestiOdbijanje()&lt;br&gt;exit / zatvoriAplikaciju()" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-33" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4_SGCCDaH6KObCQVByiN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Prihvaćena prijava" vertex="1">
+          <mxGeometry height="52" width="140" x="410" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-13" parent="4_SGCCDaH6KObCQVByiN-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="entry / kreirajVolontera()&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Prijava podneta" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-25" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4_SGCCDaH6KObCQVByiN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="445" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-24" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.464;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="4_SGCCDaH6KObCQVByiN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[isAccepted == false]" vertex="1">
+          <mxGeometry height="30" width="140" x="500" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[isAccepted == true]" vertex="1">
+          <mxGeometry height="30" width="140" x="480" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-28" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=light-dark(#FF0000,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="715" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-36" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4_SGCCDaH6KObCQVByiN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Aktivacija volontera" vertex="1">
+          <mxGeometry height="52" width="160" x="400" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-32" parent="4_SGCCDaH6KObCQVByiN-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="entry / aktivirajVolontera()&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-37" edge="1" parent="1" source="4_SGCCDaH6KObCQVByiN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4_SGCCDaH6KObCQVByiN-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639.97" y="726" />
+              <mxPoint x="639.97" y="550" />
+            </Array>
+            <mxPoint x="639.9999999999998" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-34" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Deaktivacija volontera" vertex="1">
+          <mxGeometry height="52" width="160" x="400" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-35" parent="4_SGCCDaH6KObCQVByiN-34" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="entry / deaktivirajVolontera()&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Kreiranje volontera i unos u bazu podataka" vertex="1">
+          <mxGeometry height="30" width="160" x="480" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Životni ciklus volontera" vertex="1">
+          <mxGeometry height="30" width="160" x="535" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-41" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4_SGCCDaH6KObCQVByiN-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-42" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=light-dark(#FF0000,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="505" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Volonter neaktivan" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="4_SGCCDaH6KObCQVByiN-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Volonter se vratio na poziciju" vertex="1">
+          <mxGeometry height="30" width="120" x="650" y="615" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
